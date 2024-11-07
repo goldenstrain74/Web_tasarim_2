@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badges</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="Js/bootstrap.bundle.js"></script>
+    <style>
+        .ozelrenk{background-color: blueviolet;}
+        .ozelrenk:hover{background-color: rgb(115, 36, 189);}   
+    </style>
+</head>
+<body>
+    <span class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <button type="button" class="btn btn-success"> kabul et</button>
+        <button type="button" class="btn btn-danger"> reddet</button>
+        <button type="button" class="btn btn-primary"> giriş yap</button>
+        <button type="button" class="btn btn-secondary">
+            gelen kutusu <span class="badge text-bg-primary">5</span>
+        </button>
+        <button type="button" class="btn btn-warning position-relative">
+            okunmayan postalar <span class="position-absolute top-0 start-100 translate-middle badge bg-danger">3</span>
+        </button>
+        <button type="button" class="btn ozelrenk "> özel buton</button>
+        <br>
+        <span class="badge rounded-pill text-bg-primary"> primary</span>
+        <span class="badge pill text-bg-secondary"> secondary</span>
+        <span class="badge rounded-pill text-bg-danger"> danger</span>
+        <span class="badge pill text-bg-warning"> warning</span>
+        <span class="badge rounded-pill text-bg-success"> succes</span>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        
+    </span>
+
+    
+</body>
+</html>
